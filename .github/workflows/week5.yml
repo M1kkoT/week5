@@ -62,5 +62,5 @@ jobs:
         with:
           app-name: 'mikkotta-sssf-week5'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B1840498DD994A809B1071D777D82441 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
           package: .
